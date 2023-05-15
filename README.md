@@ -47,17 +47,12 @@ A Cury Company possui um modelo de negócio chamado Marketplace, que fazer o int
 O objetivo desse projeto é criar um conjunto de gráficos e/ou tabelas que exibam essas métricas da melhor forma possível para o CEO.
 # 2. Premissas assumidas para a análise
 
-    1. A análise foi realizada com dados entre 11/02/2022 e 06/04/2022.
-    2. Marketplace foi o modelo de negócio assumido.
-    3. Os 3 principais visões do negócio foram: Visão transação de pedidos, visão restaurante e visão entregadores.
+    1. Marketplace foi o modelo de negócio assumido.
+    2. Os 3 principais visões do negócio foram: Visão empresa, Visão restaurante e Visão entregadores.
 
 # 3. Estratégia da solução
 
 O painel estratégico foi desenvolvido utilizando as métricas que refletem as 3 principais visões do modelo de negócio da empresa:
-
-    1. Visão do crescimento da empresa
-    2. Visão do crescimento dos restaurantes
-    3. Visão do crescimento dos entregadores
 
 Cada visão é representada pelo seguinte conjunto de métricas.
 

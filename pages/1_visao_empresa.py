@@ -269,14 +269,14 @@ with tab1:
        
     with col1:
         
-        st.markdown('# 3. Distribuição dos pedidos por tipo de tráfego.')
+        st.markdown('# Distribuição dos pedidos por tipo de tráfego.')
         fig = traffic_order_share ( df1 ) 
         st.plotly_chart(fig, use_container_width=True)
         
     
         
     with col2:
-        st.markdown('# 4. Comparação do volume de pedidos por cidade e tipo de tráfego.')
+        st.markdown('# Comparação do volume de pedidos por cidade e tipo de tráfego.')
         fig = traffic_orde_city ( df1)
         st.plotly_chart(fig, use_container_width=True)
         
@@ -287,7 +287,7 @@ with tab1:
             
 with tab2:
     with st.container():
-        st.markdown('# 2. Quantidade de pedidos por semana.')
+        st.markdown('# Quantidade de pedidos por semana.')
         fig = order_by_week ( df1 )
         st.plotly_chart(fig, use_container_width=True)
          
@@ -295,7 +295,7 @@ with tab2:
         
     
     with st.container():
-        st.markdown('# 5. A quantidade de pedidos por entregador por semana')
+        st.markdown('# A quantidade de pedidos por entregador por semana')
         fig = order_share_by_week ( df1 )
         st.plotly_chart(fig, use_container_width=True)
         
@@ -306,6 +306,6 @@ with tab2:
     
 with tab3:
     
-    st.markdown('# 6. A localização central de cada cidade por tipo de tráfego.')
+    st.markdown('# A localização central de cada cidade por tipo de tráfego.')
     country_maps ( df1 )
     
